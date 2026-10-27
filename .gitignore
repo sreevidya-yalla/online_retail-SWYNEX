@@ -1,0 +1,12 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Local raw data and temporary exports
+data/raw/*.csv
+*.tmp
+.DS_Store
