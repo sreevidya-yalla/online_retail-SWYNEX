@@ -169,4 +169,4 @@ The project provides practical experience in transforming raw transaction data i
 
 **Project:** Online Retail Data Analysis  
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Power BI, GitHub  
-**Status:** Tasks 1–3 completed
+
