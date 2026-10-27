@@ -132,6 +132,12 @@ Dashboard components:
 
 The dashboard allows users to explore sales performance across different countries and periods.
 
+### Dashboard Preview
+
+![Online Retail Sales Dashboard](./Task-3-Interactive-Dashboard/Online_Retail_Dashboard.png)
+
+**Dashboard File:** [Online_Retail_Dashboard.pbix](./Task-3-Interactive-Dashboard/Online_Retail_Dashboard.pbix)
+
 ## Data Quality and Interpretation Notes
 
 - Customer identifiers are missing for some transactions; customer-level analysis uses identifiable customers only.
