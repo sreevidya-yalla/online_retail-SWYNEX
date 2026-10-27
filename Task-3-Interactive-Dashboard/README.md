@@ -17,6 +17,12 @@ The dashboard uses the cleaned Online Retail dataset prepared during Task 1.
 - **Last transaction date:** December 9, 2011
 - **Note:** December 2011 is a partial month.
 
+## Dashboard Preview
+
+![Online Retail Sales Dashboard](./dashboard_screenshot.png)
+
+The interactive Power BI dashboard summarizes online retail performance through key metrics, sales trends, country-wise revenue, and top-performing products and customers.
+
 ## Dashboard KPIs
 The dashboard includes five key performance indicators:
 
