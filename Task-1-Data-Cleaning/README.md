@@ -1,49 +1,38 @@
-# Task 1: Data Cleaning and Preparation
+# Task 1 — Data Cleaning & Preparation
 
-## Project Overview
-This project focuses on cleaning and preparing the Online Retail dataset as part of the SWYNEX Technologies Data Analyst Internship.
+## Objective
+Inspect and prepare the Online Retail dataset while preserving legitimate sales, returns, and cancellation records.
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-- GitHub
+## Tools
+Python, Pandas, NumPy, Jupyter Notebook.
 
-## Dataset Description
-The dataset contains online retail transactions with the following columns:
-- InvoiceNo
-- StockCode
-- Description
-- Quantity
-- InvoiceDate
-- UnitPrice
-- CustomerID
-- Country
+## Dataset
+The notebook expects the unchanged raw CSV at `data/raw/online_retail.csv` relative to the repository root. The raw file is intentionally not copied into this starter package. Add it locally before running the notebook, and follow the dataset's license/redistribution terms before publishing it.
 
-## Data Cleaning Steps
-1. Inspected the dataset structure, data types, and summary statistics.
-2. Identified missing values in Description and CustomerID.
-3. Removed exact duplicate rows.
-4. Removed leading and trailing whitespace from text columns.
-5. Converted InvoiceDate to datetime format.
-6. Converted CustomerID to a nullable integer type.
-7. Validated the cleaned dataset.
+## Notebook
+Run `online_retail_data_cleaning.ipynb` from this task folder. The current notebook performs the initial audit only; it does not yet create the cleaned output.
 
-## Results
-- Original rows: 541,909
-- Duplicate rows removed: 5,268
-- Cleaned rows: 536,641
-- Columns retained: 8
-- Remaining missing descriptions: 1,454
-- Remaining missing CustomerIDs: 135,037
-- Remaining exact duplicate rows: 0
+## Initial audit
+The uploaded source file was inspected before changes:
+- Shape: 541,909 rows × 8 columns
+- Missing `Description`: 1,454
+- Missing `CustomerID`: 135,080
+- Exact duplicate rows: 5,268
+- Cancellation-like invoice numbers beginning with `C`: 9,288
+- Negative quantities: 10,624
+- Zero unit prices: 2,515
+- Negative unit prices: 2
+- Unparseable `InvoiceDate` values: 0
 
-## Data Quality Decisions
-Missing descriptions and CustomerIDs were retained to avoid unnecessarily losing potentially useful transactions. Negative quantities, zero unit prices, and negative unit prices were preserved for further investigation rather than automatically deleting them.
+These are audit findings, not cleaning outcomes. Values will be rechecked by the notebook and decisions documented before removal or modification.
 
-## Output Files
-- `cleaned_online_retail.zip` — compressed cleaned dataset.
+## Planned cleaning principles
+- Keep the raw dataset unchanged.
+- Do not automatically delete rows with missing customer IDs.
+- Preserve legitimate returns and cancellation records in the master dataset.
+- Do not invent product descriptions.
+- Investigate duplicates, zero/negative prices, and outliers before deciding how to handle them.
+- Validate the cleaned dataset and compare before/after row counts before marking this task complete.
 
 ## Status
-Data cleaning and initial validation completed.
+**In progress — initial audit notebook created.** The cleaned CSV and final results are not yet available.
