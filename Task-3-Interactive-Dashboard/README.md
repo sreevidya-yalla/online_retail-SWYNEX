@@ -19,7 +19,7 @@ The dashboard uses the cleaned Online Retail dataset prepared during Task 1.
 
 ## Dashboard Preview
 
-![Online Retail Sales Dashboard](./dashboard_screenshot.png)
+![Online Retail Sales Dashboard](./Online_Retail_Dashboard.png)
 
 The interactive Power BI dashboard summarizes online retail performance through key metrics, sales trends, country-wise revenue, and top-performing products and customers.
 
