@@ -138,6 +138,20 @@ The dashboard allows users to explore sales performance across different countri
 
 **Dashboard File:** [Online_Retail_Dashboard.pbix](./Task-3-Interactive-Dashboard/Online_Retail_Dashboard.pbix)
 
+### Task 4: Final Data Analytics Case Study
+
+**Folder:** [`Task-4-Final-Case-Study`](./Task-4-Final-Case-Study/)
+
+This final case study brings together the complete data analytics workflow, from data cleaning and exploratory analysis to interactive Power BI reporting.
+
+It includes:
+- Problem statement and dataset information
+- Data cleaning and preparation process
+- Exploratory data analysis and key findings
+- Power BI dashboard overview
+- Business insights and recommendations
+- Project conclusion and tools used
+
 ## Data Quality and Interpretation Notes
 
 - Customer identifiers are missing for some transactions; customer-level analysis uses identifiable customers only.
